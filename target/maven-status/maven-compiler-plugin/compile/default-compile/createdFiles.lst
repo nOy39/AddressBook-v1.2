@@ -1,0 +1,11 @@
+helpers\CRUD.class
+helpers\Person.class
+fx\controllers\ExitControllers.class
+helpers\Constante.class
+helpers\ConnectDB.class
+fx\controllers\EditControllers.class
+fx\controllers\ErrorControllers.class
+fx\controllers\AddControllers.class
+fx\controllers\MainControllers.class
+boot\Boot.class
+fx\controllers\ProgressController.class
