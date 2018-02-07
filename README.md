@@ -1,2 +1,3 @@
-# AddressBook-v1.2
+# AddressBook-v1.2 (Complete by 80%)
 First my Application use Java 8, JavaFX, MySQL, JDBC Driver
+Work...
