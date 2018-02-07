@@ -15,6 +15,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
@@ -270,9 +271,54 @@ public class MainControllers implements Initializable {
         }
     }
 
-    public void test() {
+    public static void test() {
         System.out.println("Clicked!!!");
     }
+
+    public void statusShowAdd(MouseEvent mouseEvent) {
+        lblStatus.setText("Добавить контакт в БД.");
+    }
+
+    public void statusHideAdd(MouseEvent mouseEvent) {
+        lblStatus.setText("");
+    }
+
+
+    public void statusShowEdit(MouseEvent mouseEvent) {
+        lblStatus.setText("Изменить данные контакта.");
+    }
+
+    public void statusHideEdit(MouseEvent mouseEvent) {
+        lblStatus.setText("");
+    }
+
+
+    public void statusShowDelete(MouseEvent mouseEvent) {
+        lblStatus.setText("Удалить контакт из БД.");
+    }
+
+    public void statusHideDelete(MouseEvent mouseEvent) {
+        lblStatus.setText("");
+    }
+
+
+    public void statusShowPrint(MouseEvent mouseEvent) {
+        lblStatus.setText("Распечатать данные контакта.");
+    }
+
+    public void statusHidePrint(MouseEvent mouseEvent) {
+        lblStatus.setText("");
+    }
+
+
+    public void statusShowSearch(MouseEvent mouseEvent) {
+        lblStatus.setText("Поиск контакта в БД.");
+    }
+
+    public void statusHideSearch(MouseEvent mouseEvent) {
+        lblStatus.setText("");
+    }
+
 }
 
 
