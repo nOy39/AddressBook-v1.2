@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea0848df-7f7a-415c-a232-2c506067b91f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helpers/CRUD.class" afterPath="$PROJECT_DIR$/target/classes/helpers/CRUD.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/add.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/android-add-contact.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/boot/Boot.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/confirmexit.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/contacts.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/contacts.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edit.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/error.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fx/controllers/AddControllers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fx/controllers/EditControllers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fx/controllers/ErrorControllers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fx/controllers/ExitControllers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fx/controllers/MainControllers.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fx/controllers/ProgressController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helpers/CRUD.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helpers/ConnectDB.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helpers/Constante.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/helpers/Person.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/progress.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rodentia-icons_contact-add.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -432,12 +454,12 @@
       <workItem from="1517761651581" duration="20781000" />
       <workItem from="1517840413272" duration="5202000" />
       <workItem from="1517915141740" duration="8677000" />
-      <workItem from="1517937610565" duration="15145000" />
+      <workItem from="1517937610565" duration="15281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49805000" />
+    <option name="totallyTimeSpent" value="49941000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,7 +487,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21858217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21858217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30558538" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
