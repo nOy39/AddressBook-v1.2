@@ -38,7 +38,7 @@ public class MainControllers implements Initializable {
 
     public Connection connection;
 
-    //TODO: Сделать меню
+    //TODO: Сделать обработчик меню
     @FXML
     public MenuItem menuOpen;
     @FXML
@@ -83,7 +83,6 @@ public class MainControllers implements Initializable {
     @FXML
     private TextField fldSearch;
 
-    //TODO сделать статус.
     @FXML
     private Label lblStatus;
 
@@ -127,8 +126,7 @@ public class MainControllers implements Initializable {
     @FXML
     private TableColumn<Person, String> columnPhone;
 
-    //TODO: добавить MenuBar
-
+    private MenuBar menuBar;
     //TODO: сделать подтверждение очистки формы.
     public void clear(TextField field1, TextField field2, TextField field3, TextField field4,
                       TextField field5, TextField field6, TextField field7, TextField field8) {
