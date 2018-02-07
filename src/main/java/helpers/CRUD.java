@@ -69,4 +69,16 @@ public class CRUD {
     }
 
 
+    public static void updateTable(String querry) {
+        System.out.println(querry);
+        ConnectDB.openConnection();
+        Statement statement = null;
+        try {
+            statement = connectDB.connect().createStatement();
+            statement.executeUpdate(querry);
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 }

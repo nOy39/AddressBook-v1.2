@@ -69,7 +69,7 @@ public class AddControllers {
     }
 
     //TODO Загрузка изображения по клику изображения
-    public void habdleImage(ActionEvent actionEvent) {
+    public void handleImage(ActionEvent actionEvent) {
         System.out.println("IN PROGRESS");
 
             try {

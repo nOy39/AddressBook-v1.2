@@ -2,6 +2,7 @@ package fx.controllers;
 
 import helpers.CRUD;
 import helpers.ConnectDB;
+import helpers.Constante;
 import helpers.Person;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -23,7 +24,6 @@ import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 public class MainControllers implements Initializable {
@@ -59,6 +59,8 @@ public class MainControllers implements Initializable {
     private ObservableList<Person> personList;
 
     public static AddControllers addControllers = new AddControllers();
+    public static EditControllers editControllers = new EditControllers();
+    public static Constante constante = new Constante();
 
     //кнопка добавить
     @FXML
@@ -81,7 +83,8 @@ public class MainControllers implements Initializable {
     private Button btnSearch;
 
     @FXML
-    private TextField fldSearch;
+    public TextField fldSearch;
+
 
     @FXML
     private Label lblStatus;
@@ -127,6 +130,7 @@ public class MainControllers implements Initializable {
     private TableColumn<Person, String> columnPhone;
 
     private MenuBar menuBar;
+
     //TODO: сделать подтверждение очистки формы.
     public void clear(TextField field1, TextField field2, TextField field3, TextField field4,
                       TextField field5, TextField field6, TextField field7, TextField field8) {
@@ -163,6 +167,8 @@ public class MainControllers implements Initializable {
 
     public void handleEdit(ActionEvent actionEvent) {
 
+        constante.setIndex(selectedIndex);
+        System.out.println(editControllers.indexTabla);
         try {
             stageEdit = new Stage();
             Parent root = FXMLLoader.load(getClass().getResource("/edit.fxml"));
@@ -174,6 +180,7 @@ public class MainControllers implements Initializable {
             stageEdit.initModality(Modality.WINDOW_MODAL);
             stageEdit.initOwner(((Node) actionEvent.getSource()).getScene().getWindow());
             stageEdit.show();
+            editControllers.showPersonData();
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -258,6 +265,7 @@ public class MainControllers implements Initializable {
         System.out.println("Refresh");
         if (person != null) {
             selectedIndex = Integer.parseInt(person.getId());
+            editControllers.setIndexTabla(selectedIndex);
             fName.setText(person.getFirstName());
             sName.setText(person.getLastName());
             lPhone.setText(person.getPhone());
@@ -266,6 +274,8 @@ public class MainControllers implements Initializable {
             lAddress.setText(person.getAddress());
             lIndex.setText(person.getIndx());
             lEmail.setText(person.getEmail());
+
+            System.out.println(selectedIndex);
         }
     }
 
@@ -310,13 +320,20 @@ public class MainControllers implements Initializable {
 
 
     public void statusShowSearch(MouseEvent mouseEvent) {
+
         lblStatus.setText("Поиск контакта в БД.");
+        fldSearch.setPromptText("Имя, Фамилия, Телефон...");
     }
 
     public void statusHideSearch(MouseEvent mouseEvent) {
         lblStatus.setText("");
+        fldSearch.setPromptText("");
     }
 
+
+    public int getSelectedIndex() {
+        return selectedIndex;
+    }
 }
 
 

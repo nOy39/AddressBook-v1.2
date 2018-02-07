@@ -42,7 +42,7 @@
                         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                      </padding>
                   </Button>
-                  <ImageView fitHeight="208.0" fitWidth="214.0" layoutY="42.0" onMouseClicked="#habdleImage" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="208.0" fitWidth="214.0" layoutY="42.0" onMouseClicked="#handleImage" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@rodentia-icons_contact-add.png" />
                      </image>
