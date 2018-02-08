@@ -168,7 +168,7 @@ public class MainControllers implements Initializable {
     public void handleEdit(ActionEvent actionEvent) {
 
         constante.setIndex(selectedIndex);
-        System.out.println(editControllers.indexTabla);
+
         try {
             stageEdit = new Stage();
             Parent root = FXMLLoader.load(getClass().getResource("/edit.fxml"));

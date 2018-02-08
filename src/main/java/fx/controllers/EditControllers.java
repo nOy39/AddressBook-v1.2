@@ -29,7 +29,7 @@ import java.util.ResourceBundle;
 public class EditControllers {
 
     @FXML
-    public Label labelName;
+    public static Label labelName;
 
 
     ProgressController pg = new ProgressController();
